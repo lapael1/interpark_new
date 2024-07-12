@@ -30,8 +30,8 @@ body {
   /* background-color: aquamarine; */
 }
 /* section 공동클래스*/
-.wrap > section{
-padding: 30px 0 90px 0;
+.wrap > section {
+  padding: 30px 0 90px 0;
 }
 .section-top > h2 {
   font-size: 28px;
@@ -46,7 +46,7 @@ padding: 30px 0 90px 0;
 }
 
 /* 스와이퍼 네비게이션 버튼 */
-.sw-bt{
+.sw-bt {
   width: 50px;
   height: 50px;
   border-radius: 50%;
@@ -56,7 +56,7 @@ padding: 30px 0 90px 0;
   font-size: 0;
   cursor: pointer;
 }
-.sw-bt::before{
+.sw-bt::before {
   content: "";
   width: 8px;
   height: 16px;
@@ -64,19 +64,19 @@ padding: 30px 0 90px 0;
   position: absolute;
   top: calc(50% - 8px);
   left: calc(50% - 4px);
-  background: url("../images/slider_arrow.svg")no-repeat center;
+  background: url("../images/slider_arrow.svg") no-repeat center;
 }
-.sw-prev::before{
+.sw-prev::before {
   transform: scaleX(-100%);
 }
-.sw-prev{
+.sw-prev {
   position: absolute;
   top: 50%;
   left: 0;
   transform: translate(-50%, -50%);
   z-index: 99;
 }
-.sw-next{
+.sw-next {
   position: absolute;
   top: 50%;
   right: 0;
@@ -86,5 +86,3 @@ padding: 30px 0 90px 0;
 
 /* 플라잉배너 */
 /* 퀵메뉴 */
-
-
